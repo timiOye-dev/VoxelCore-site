@@ -1,16 +1,60 @@
-# React + Vite
+# 🚀 VoxelCore Enterprise Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern enterprise-grade frontend experience built with React, Vite, Tailwind CSS, and React Router.
 
-Currently, two official plugins are available:
+VoxelCore was designed to deliver a clean SaaS-inspired interface with premium dark surfaces, responsive layouts, reusable architecture, and smooth user experience flows.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive multi-page React architecture
+- Enterprise-grade UI/UX design
+- Smooth page transitions and navigation flow
+- Landing, About, and Contact pages
+- CTA routing and anchor navigation
+- Modular reusable component structure
+- Tailwind CSS utility-first styling
+- Mobile-first responsive layouts
+- Consistent typography and spacing system
+- Premium SaaS-inspired visual design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🧭 React Router DOM
+- 📦 npm
+- 🐙 Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+ ├── components/
+ │    ├── CTA.jsx
+ │    ├── Features.jsx
+ │    ├── Footer.jsx
+ │    ├── Hero.jsx
+ │    ├── Navbar.jsx
+ │    ├── PageTransition.jsx
+ │    ├── PageTransitionLayout.jsx
+ │    ├── ScrollToTop.jsx
+ │    └── Stats.jsx
+ │
+ ├── pages/
+ │    ├── About.jsx
+ │    ├── Contact.jsx
+ │    └── Landing.jsx
+ │
+ ├── utils/
+ │    └── scroll.js
+ │
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
