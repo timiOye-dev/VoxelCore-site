@@ -58,3 +58,73 @@ src/
  ├── App.jsx
  ├── main.jsx
  └── index.css
+ 
+ ---
+
+## 📄 Pages
+
+### 🏠 Landing Page
+- Hero section
+- Features section
+- Stats section
+- Enterprise CTA section
+
+### ℹ️ About Page
+- Company overview
+- Mission and vision
+- Enterprise positioning
+
+### 📬 Contact Page
+- Contact form
+- Company contact information
+- Direct CTA navigation
+
+---
+
+## ⚙️ Development Setup
+
+Clone the repository and install dependencies:
+
+```bash
+npm install
+
+Start the development server:
+
+```bash
+npm run dev
+
+Build for production:
+
+```bash
+npm run build
+
+---
+
+## 🎨 Design Direction
+
+The interface follows a modern enterprise SaaS design language inspired by platforms such as:
+
+- Vercel
+- Linear
+- Stripe
+
+The design system focuses on:
+
+- Dark premium surfaces
+- Restrained glow accents
+- Clean typography hierarchy
+- Responsive spacing consistency
+- Smooth interaction flow
+- Minimal but polished UI structure
+
+---
+
+## 🚀 Deployment
+
+The project is optimized for deployment on Vercel.
+
+---
+
+## 👨‍💻 Author
+
+Developed by TimiOye-dev
